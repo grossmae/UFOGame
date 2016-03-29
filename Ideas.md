@@ -1,0 +1,27 @@
+#UFO Game
+
+###Basic Concept
+
+* UFO hovers around planets
+* UFO delivers resources from one planet to another to help grow a planet
+* IE UFO takes fire to an ice planet to create water.  Water to a forest planet to grow trees.
+* Could also bring fire to the forest planet to burn down trees.
+* Planets are very small and the UFO can easily be seen flying around it.
+* Items get sucked up by a ray
+
+###Small Ideas
+
+* The camera stays on the UFO, only the planet moves
+* Planets are very small and the UFO can easily fly around the whole thing
+* Planets fade and shrink if they are not taken care of and collapse
+* The sun is a constant source to start from
+* Human planet?
+* Animal planets? Maybe plant planet -> herbavore planet -> carnivore planet
+
+###Questions
+
+* What is the main purpose of the UFO?
+* What is the main purpose of the player?
+* How is the player rewarded? (Planet size?  Planet population? Planet balance?)
+
+
