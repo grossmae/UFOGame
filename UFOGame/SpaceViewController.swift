@@ -7,12 +7,25 @@
 //
 
 import UIKit
+import SceneKit
 
 class SpaceViewController: UIViewController {
 
+    var scnView: SCNView!
+    var spaceScene: SCNScene!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.backgroundColor = UIColor.redColor()
+        setupScenes()
+    }
+    
+    func setupScenes() {
+        scnView = SCNView(frame: self.view.frame)
+        self.view.addSubview(scnView)
+        spaceScene = SCNScene(named: "/UFOGame.scnassets/Space.scn")
+        scnView.scene = spaceScene
     }
 
     override func didReceiveMemoryWarning() {
