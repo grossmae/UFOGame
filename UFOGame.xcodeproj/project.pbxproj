@@ -12,6 +12,7 @@
 		206D0AA51CB6129E0053B925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206D0AA31CB6129E0053B925 /* Main.storyboard */; };
 		206D0AA71CB6129E0053B925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206D0AA61CB6129E0053B925 /* Assets.xcassets */; };
 		206D0AAA1CB6129E0053B925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206D0AA81CB6129E0053B925 /* LaunchScreen.storyboard */; };
+		206D0ABA1CB617E60053B925 /* UFOGame.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 206D0AB91CB617E60053B925 /* UFOGame.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		206D0AA61CB6129E0053B925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		206D0AA91CB6129E0053B925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		206D0AAB1CB6129E0053B925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		206D0AB91CB617E60053B925 /* UFOGame.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = UFOGame.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				206D0A9F1CB6129E0053B925 /* AppDelegate.swift */,
 				206D0AA11CB6129E0053B925 /* ViewController.swift */,
 				206D0AA31CB6129E0053B925 /* Main.storyboard */,
+				206D0AB91CB617E60053B925 /* UFOGame.scnassets */,
 				206D0AA61CB6129E0053B925 /* Assets.xcassets */,
 				206D0AA81CB6129E0053B925 /* LaunchScreen.storyboard */,
 				206D0AAB1CB6129E0053B925 /* Info.plist */,
@@ -124,6 +127,7 @@
 			files = (
 				206D0AAA1CB6129E0053B925 /* LaunchScreen.storyboard in Resources */,
 				206D0AA71CB6129E0053B925 /* Assets.xcassets in Resources */,
+				206D0ABA1CB617E60053B925 /* UFOGame.scnassets in Resources */,
 				206D0AA51CB6129E0053B925 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +292,7 @@
 				206D0AB01CB6129E0053B925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
