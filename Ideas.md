@@ -17,10 +17,13 @@
 * The sun is a constant source to start from
 * Human planet?
 * Animal planets? Maybe plant planet -> herbavore planet -> carnivore planet
+* Alien lives in a small house on one of the planets
+* UFO engine starting noise
+* Harvestable berries grow from bushes like inflating baloons
 
 ###Questions
 
-* What is the main purpose of the UFO?
+* What is the main purpose of the UFO? (Escape solar system?  Planet Gardener?)
 * What is the main purpose of the player?
 * How is the player rewarded? (Planet size?  Planet population? Planet balance?)
 
