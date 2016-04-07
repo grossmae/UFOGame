@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		206D0AA01CB6129E0053B925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D0A9F1CB6129E0053B925 /* AppDelegate.swift */; };
-		206D0AA21CB6129E0053B925 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D0AA11CB6129E0053B925 /* ViewController.swift */; };
+		206D0AA21CB6129E0053B925 /* SpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D0AA11CB6129E0053B925 /* SpaceViewController.swift */; };
 		206D0AA51CB6129E0053B925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206D0AA31CB6129E0053B925 /* Main.storyboard */; };
 		206D0AA71CB6129E0053B925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206D0AA61CB6129E0053B925 /* Assets.xcassets */; };
 		206D0AAA1CB6129E0053B925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206D0AA81CB6129E0053B925 /* LaunchScreen.storyboard */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		206D0A9C1CB6129E0053B925 /* UFOGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UFOGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		206D0A9F1CB6129E0053B925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		206D0AA11CB6129E0053B925 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		206D0AA11CB6129E0053B925 /* SpaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceViewController.swift; sourceTree = "<group>"; };
 		206D0AA41CB6129E0053B925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		206D0AA61CB6129E0053B925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		206D0AA91CB6129E0053B925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				206D0A9F1CB6129E0053B925 /* AppDelegate.swift */,
-				206D0AA11CB6129E0053B925 /* ViewController.swift */,
+				206D0AA11CB6129E0053B925 /* SpaceViewController.swift */,
 				206D0AA31CB6129E0053B925 /* Main.storyboard */,
 				206D0AB91CB617E60053B925 /* UFOGame.scnassets */,
 				206D0AA61CB6129E0053B925 /* Assets.xcassets */,
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				206D0AA21CB6129E0053B925 /* ViewController.swift in Sources */,
+				206D0AA21CB6129E0053B925 /* SpaceViewController.swift in Sources */,
 				206D0AA01CB6129E0053B925 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

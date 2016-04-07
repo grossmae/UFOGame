@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SpaceViewController.swift
 //  UFOGame
 //
 //  Created by Evan Grossman on 4/6/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SpaceViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
