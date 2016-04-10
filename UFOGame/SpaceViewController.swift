@@ -25,6 +25,8 @@ class SpaceViewController: UIViewController {
         setupScenes()
         setupNodes()
         setupGestures()
+        
+        populateTrees()
     }
     
     func setupScenes() {
@@ -42,6 +44,26 @@ class SpaceViewController: UIViewController {
     func setupGestures() {
         let panGestureRecognizer = UIPanGestureRecognizer(target: self, action: #selector(handlePanGesture))
         scnView.addGestureRecognizer(panGestureRecognizer)
+    }
+    
+    func populateTrees() {
+        
+        let treeScene = SCNScene(named: "/UFOGame.scnassets/Tree.scn")!
+        let treeNode = treeScene.rootNode.childNodeWithName("Tree", recursively: true)!
+        treeNode.position = SCNVector3Make(0, 5, 0)
+        
+        for _ in 1...400 {
+            let randomScale = (Float(arc4random()) / Float(UInt32.max) * (0.5 - 0.1)) + 0.1
+            let treeClone = treeNode.clone()
+            treeClone.scale = SCNVector3Make(randomScale, randomScale, randomScale)
+            let coreNode = SCNNode()
+            coreNode.eulerAngles = SCNVector3Make(Float(arc4random_uniform(360)), Float(arc4random_uniform(360)), Float(arc4random_uniform(360)))
+            planetNode.addChildNode(coreNode)
+            coreNode.addChildNode(treeClone)
+        }
+        
+        
+        
     }
 
     func handlePanGesture(sender: UIPanGestureRecognizer) {
