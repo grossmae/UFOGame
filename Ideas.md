@@ -27,4 +27,8 @@
 * What is the main purpose of the player?
 * How is the player rewarded? (Planet size?  Planet population? Planet balance?)
 
+###Problems to Solve/Things to Lean
+* How to apply basic textures (ie land and water.) idealy with physics interaction.
+* How to spin the planet with momentum
+
 
