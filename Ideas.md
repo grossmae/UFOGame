@@ -32,4 +32,9 @@
 * How to spin the planet with momentum
 * How to spin the planer correctly.  Right now the XAxis rotation is working perfectly, but the Z axis is very wonky.  Probably going to try making the UFO actually rotate around the planet and have the camera follow.
 
+###Next Goals
+* Fix rotation issues
+* Plant trees directly under the UFO
+* Suck trees up with UFO beam
+
 
