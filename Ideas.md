@@ -30,5 +30,6 @@
 ###Problems to Solve/Things to Lean
 * How to apply basic textures (ie land and water.) idealy with physics interaction.
 * How to spin the planet with momentum
+* How to spin the planer correctly.  Right now the XAxis rotation is working perfectly, but the Z axis is very wonky.  Probably going to try making the UFO actually rotate around the planet and have the camera follow.
 
 
